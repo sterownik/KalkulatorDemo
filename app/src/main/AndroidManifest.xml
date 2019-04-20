@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/politechnika"
-        android:label="Kalkulator"
+        android:label="KalkulatorDemo"
         android:roundIcon="@drawable/politechnika"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
