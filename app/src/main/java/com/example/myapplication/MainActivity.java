@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Switch switch1=(Switch)findViewById(R.id.switch1);
         final TextView textView=(TextView)findViewById(R.id.textView);
         textView.setVisibility(View.INVISIBLE);
-        textView.setText("Program został wykonany przez Wojciecha Gołde w dniu 21d 04m 2019r");
+        textView.setText("Program został wykonany przez Wojciecha Gołde w dniu 21 dnia kwietnia 2019 roku");
 
         final TextView textView2=(TextView)findViewById(R.id.textView2);
 
