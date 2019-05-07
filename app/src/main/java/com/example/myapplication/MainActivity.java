@@ -285,7 +285,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    str3="9";
+                    str3=".";
                     str1=str1+str3;
 
                     textView2.setText(str1);
