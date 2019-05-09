@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Button idpl=(Button)findViewById(R.id.idpl);
         Switch switch1=(Switch)findViewById(R.id.switch1);
         final TextView textView=(TextView)findViewById(R.id.textView);
+        final TextView liczenie = (TextView)findViewById(R.id.wyniczek);
         textView.setVisibility(View.INVISIBLE);
         textView.setText("Program został wykonany przez Wojciecha Gołde w dniu 21 dnia kwietnia 2019 roku");
 
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 str=str+str2;
 
                 textView2.setText(str);
+                liczenie.setText(str);
             }
             else
             {
@@ -85,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
                 str1=str1+str3;
 
                 textView2.setText(str1);
+                String s = str+znak+str1;
+                liczenie.setText(s);
             }
             }
         });
@@ -96,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -103,6 +108,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -114,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -121,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -132,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -139,6 +150,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -150,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -157,6 +171,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -168,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -175,6 +192,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -186,6 +205,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -193,6 +213,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -204,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -211,6 +234,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -222,6 +247,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -229,6 +255,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -240,6 +268,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -247,6 +276,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
                 }
             }
         });
@@ -258,6 +289,7 @@ public class MainActivity extends AppCompatActivity {
             str="";
             str1="";
             znak=' ';
+            liczenie.setText("");
             wynik=null;
             wynik1=null;
             }
@@ -271,6 +303,8 @@ public class MainActivity extends AppCompatActivity {
                 wynik1=wynik;
                 str1="";
             }
+                String s = str+znak;
+                liczenie.setText(s);
 
             }
         });
@@ -282,6 +316,7 @@ public class MainActivity extends AppCompatActivity {
                     str = str + str2;
 
                     textView2.setText(str);
+                    liczenie.setText(str);
                 }
                 else
                 {
@@ -289,6 +324,8 @@ public class MainActivity extends AppCompatActivity {
                     str1=str1+str3;
 
                     textView2.setText(str1);
+                    String s = str+znak+str1;
+                    liczenie.setText(s);
 
 
                 }
@@ -303,6 +340,8 @@ public class MainActivity extends AppCompatActivity {
                     wynik1=wynik;
                     str1="";
                 }
+                String s = str+znak;
+                liczenie.setText(s);
 
             }
         });
@@ -315,6 +354,8 @@ public class MainActivity extends AppCompatActivity {
                     wynik1=wynik;
                     str1="";
                 }
+                String s = str+znak;
+                liczenie.setText(s);
 
             }
         });
@@ -327,6 +368,8 @@ public class MainActivity extends AppCompatActivity {
                     wynik1=wynik;
                     str1="";
                 }
+                String s = str+znak;
+                liczenie.setText(s);
             }
         });
         idro.setOnClickListener(new View.OnClickListener() {
